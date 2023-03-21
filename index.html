@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Users/cristianalvarez/Downloads/Argentina Programa 2022/Desarrollo Frontend Enero 2023/ProyectoCVAlvarezCristian/css/style.css" />
+    <title>Login</title>
+</head> 
+<body class="login">
+    <h6>Por favor, ingrese sus datos para leer el CV:</h6>
+    <section>
+        <form class="formulario" action="" method="post">
+            <legend style="text-align: center;"> Login: </legend>
+            <label for="apellido" class="labe"> Apellido</label><br>
+            <input class="tex" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido"/><br>
+            <label for="nombre" class="labe"> Nombre </label><br>
+            <input class="tex" type="text" name="nombre" placeholder="Ingrese su nombre" id="nombre"/><br>
+            <label for="documento" class="labe"> Documento de identidad</label><br>
+            <input class="tex" type="number" name="documento" placeholder="Ingrese su número de documento sin puntos" id="documento"><br><br>
+            <div id="error"></div>
+            <input type="button" class="button" value="Entrar" onclick="login()">
+          
+        </form> 
+    </section>
+    <script src="/Users/cristianalvarez/Downloads/Argentina Programa 2022/Desarrollo Frontend Enero 2023/ProyectoCVAlvarezCristian/JS/index.js"></script>
+</body>
+</html>
