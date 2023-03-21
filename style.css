@@ -72,12 +72,12 @@ p {
     text-indent: 60px;
 }
 .login {
-    background-image: url('/Users/cristianalvarez/Downloads/Argentina Programa 2022/Desarrollo Frontend Enero 2023/ProyectoCVAlvarezCristian/imagenes/fondo.jpg'); 
+    background-image: url('/imagenes/fondo.jpg'); 
     background-repeat: no-repeat;
 }
 
 body {
-    background-image: url('/Users/cristianalvarez/Downloads/Argentina Programa 2022/Desarrollo Frontend Enero 2023/ProyectoCVAlvarezCristian/imagenes/fondo3.jpg'); 
+    background-image: url('/imagenes/fondo3.jpg'); 
     background-size: cover;
     width: 100%;
     height: auto;
